@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase2</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<style>
+    * {
+        text-align: center;
+        background-color: burlywood;
+        color: black;
+    }
+    
+</style>
+
+<body>
+
+    <header>
+        <h1>Selectores CSS</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inico">Inicio</a></li>
+            <li><a href="#tema seleccionado">Tema seleccionado</a></li>
+            <li><a href="#mockup">Mockup</a></li>
+            <li><a href="#acerca de">Acerca de.</a></li>
+        </ul>
+    </nav>
+    <section id="inicio">
+        <h2>Que son los selectores</h2>
+        <p>
+            Los selectores CSS son herramientas utilizadas para definir el estilo que quieres dar a tus elementos en
+            CSS. Es un patrón de elementos y otros términos que indican al navegador que elementos HTML se seleccionan
+            para aplicarles una regla que incluye los valores de las propiedades CSS.
+            Existen muchos tipos de selectores en este lenguaje, cada uno con su propia sintaxis y utilidad.
+
+        </p>
+        <img src="img/selectores.png" alt="imagen selectores css">
+    </section>
+    <hr>
+    <section id="tema seleccionado">
+        <h2>Selectores CSS</h2>
+        <p>
+            Los selectores CSS son herramientas utilizadas para definir el estilo que quieres dar a tus elementos en
+            CSS. Es un patrón de elementos y otros términos que indican al navegador que elementos HTML se seleccionan
+            para aplicarles una regla que incluye los valores de las propiedades CSS.
+            Existen muchos tipos de selectores en este lenguaje, cada uno con su propia sintaxis y utilidad.
+            <hr>
+        <h2>Tipos de selectores</h2>
+        <p>
+            Selector universal: El asterisco (*) es el selector universal en CSS. De forma automática, el asterisco
+            selecciona todos los elementos en un documento.
+            Este selector puede utilizarse en combinación con espacios de nombres (namespace). @namespace es una regla
+            que puedes emplear en documentos con muchos espacios de nombres, como HTML5, SVG en línea, MathML o XML. Al
+            usar espacios de nombres definidos puedes restringir la selección de elementos que se encuentren dentro de
+            ellos.
+        </p>
+
+        <hr>
+        <p>
+            Selector de tipo: Un selector de tipo permite seleccionar todos los elementos en HTML que tienen un nombre
+            de nodo común. Por ejemplo, al usar «a» el selector elegirá todos los elementos  y les aplicará el valor
+                de la propiedad en CSS. «Input» seleccionará todos los elementos input, «span» todos los elementos
+                span y así sucesivamente.
+        </p>
+        <hr>
+        <p>
+            Selector de clase: Los selectores de clase son herramientas que, como su nombre lo indica, permiten
+            seleccionar todos los elementos que tienen un mismo nombre de clase. Por ejemplo, intro te permitirá
+            elegir todos los elementos que pertenecen a la clase «intro», así como index escogerá todo elemento
+            que tenga una clase «index».
+        </p>
+        <hr>
+        <p>
+            Selector de ID: Un selector de ID está diseñado para seleccionar elementos con base en su atributo
+            de ID. Por ejemplo, #toc seleccionará todos los elementos que tengas como ID «toc». Ten en cuenta
+            que este selector solo funcionará cuando el valor dado en el selector es idéntico al del ID del
+            atributo que quieres referir.
+        </p>
+        <hr>
+        <p>
+            Selector de atributo: Los selectores de atributo están hechos para seleccionar todos los elementos
+            que correspondan a un atributo específico o a un valor de atributo definido. Por ejemplo, a[href]
+            elegirá todos los enlaces, mientras que a[href*="hubspot"] únicamente escogerá todas las URL que
+            contengan la palabra «hubspot».
+
+
+            Puedes utilizar este tipo de selector para aplicar reglas de CSS a elementos que tienen un valor de
+            atributo, por lo que, si quieres modificar el estilo de todos los elementos que contengan «hubspot»
+            en su URL, deberás utilizar a[href*="hubspot"].
+        </p>
+        <hr>
+        <p>
+
+            Selector de pseudo - clase: Un selector de pseudo-clase permite aplicar CSS a una selección de
+            elementos o a elementos que se encuentran en un estado específico. Por ejemplo, :hover hará que
+            únicamente se modifique el estilo de un elemento cuando el usuario se desplace sobre él. Otros
+            ejemplos comunes son: active, :visited o :invalid.
+        </p>
+    </section>
+    <hr>
+    <section id="mockup">
+        <h3>Mockup de la pagina</h3>
+        <img src="img/mockup.png" alt="imagen de la pagina">
+    </section>
+    <hr>
+
+    <section id="acerca de">
+        <h3>Acerca de</h3>
+        <p>
+        <h4>
+            Bienvenido a mi sitio web<br>
+            Proyecto de sitio web 2023-1393<br>
+
+            Nombre: Sergio Alexander Jaimes Porras<br>
+            Programa: Ingenieria de Sistemas<br>
+            Fecha de creación: junio 17 del 2023<br>
+
+            Mis datos de contacto son: <br>
+            skype: serjapo<br>
+            telefono: 3165353719<br>
+            email: serjapo@hotmail.com<br>
+        </h4>
+        </p>
+    </section>
+    <hr>
+    <footer>
+        <p>Esta pagina fue desarrollada por Sergio Alexaner Jaimes</p>
+        <p>Fecha actualización:Julio 1 del 2023</p>
+    </footer>
+</body>
+
+</html>
